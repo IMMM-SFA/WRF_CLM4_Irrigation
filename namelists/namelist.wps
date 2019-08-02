@@ -1,0 +1,40 @@
+&share
+ wrf_core = 'ARW',
+ max_dom = 1,
+ start_date = '1990-05-15_00:00:00', 
+ end_date   = '1990-10-31_18:00:00', 
+ interval_seconds = 21600,
+ io_form_geogrid = 2,
+/
+
+&geogrid
+ parent_id         = 1,
+ parent_grid_ratio = 1,
+ i_parent_start    = 1,
+ j_parent_start    = 1,
+ e_we          = 200,
+ e_sn          = 208,
+ geog_data_res = 'modis_30s',
+ dx = 25000,
+ dy = 25000,
+ map_proj =  'mercator',
+ ref_lat   = 20.496,
+ ref_lon   = 83.263,
+ truelat1  = 20.496,
+ truelat2  = 0,
+ stand_lon = 83.263,
+ geog_data_path = '/lustre/atlas/proj-shared/cli106/anjana/geog',
+ ref_x = 100.0,
+ ref_y = 104.0,
+/
+
+&ungrib
+ out_format = 'WPS',
+ prefix = 'File',
+/
+
+&metgrid
+ fg_name = 'File',
+ io_form_metgrid = 2,
+/
+
