@@ -7,6 +7,20 @@ WRF-CLM4 code modifications to incorporate representations of idealized irrigati
 
 Repository to distribute Fortran codes developed to incorporate irrigation, groundwater pumping and paddy fields in South Asia in WRF-CLM4 (using WRFv3.8.1). The repository also contains scripts to implement the distributed code to run WRF-CLM4 with irrigation representation. The published regional modeling experiments performed using the developed code (Devanand et al., 2019) were run on the now decommissioned Oak Ridge Leadership Computing Facility (OLCF) machine, Titan
 
+The developed codes are based on model versions WRFv3.8.1 and WPSv3.8.1
+Downloaded from: http://www2.mmm.ucar.edu/wrf/users/wrfv3.8/updates-3.8.1.html
+
+The developed codes have also been tested on PNNL Institute Computing (PIC) machine, Constance using the following modules and environmental setting:
+```
+module load precision/i4
+module load intel/15.0.1
+module load intelmpi/5.0.1.035
+module load netcdf/4.4.1.1
+export CC=mpicc
+export FC=mpiifort
+export NETCDF=/share/apps/netcdf/4.4.1.1/intel/15.0.1/
+```
+
 ## Repository structure
 
 ---scripts | ---WRF_CLM4_IRR_codes | ---WRF_CLM4_IDL_codes | ---namelists
@@ -74,6 +88,10 @@ _WRFV3/run/wrfinput_d01_ now contains the irrigation input data for simulations 
 
 ### Postprocessing model output
 _$BASE_DIR/WRF_CLM4_Irrigation/scripts/postprocessing_ contains NCL scripts that may be used to calculate mean daily outputs from the _wrfout_d01*_ files
+
+## Acknowledgement
+Balwinder Singh for help with debugging the irrigation implementation  
+Ben Yang, Supantha Paul and University of Nebraska-Lincoln for providing original NCL scripts which are modified for use with this implementation 
 
 ## Who do I talk to?
     subimal at civil.iitb.ac.in
