@@ -91,7 +91,7 @@ _$BASE_DIR/WRF_CLM4_Irrigation/scripts/postprocessing_ contains NCL scripts that
 
 ## Acknowledgement
 Balwinder Singh for help with debugging the irrigation implementation  
-Ben Yang, Supantha Paul and University of Nebraska-Lincoln for providing original NCL scripts which are modified for use with this implementation 
+Ben Yang, Supantha Paul and University of Nebraska-Lincoln for providing original NCL scripts which are modified for use with this implementation and post processing
 
 ## Who do I talk to?
     subimal at civil.iitb.ac.in
