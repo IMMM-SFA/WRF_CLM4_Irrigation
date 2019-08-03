@@ -89,7 +89,7 @@ _WRFV3/run/wrfinput_d01_ now contains the irrigation input data for simulations 
 ### Postprocessing model output
 _$BASE_DIR/WRF_CLM4_Irrigation/scripts/postprocessing_ contains NCL scripts that may be used to calculate mean daily outputs from the _wrfout_d01*_ files
 
-## Acknowledgement
+## Acknowledgment
 Balwinder Singh for help with debugging the irrigation implementation  
 Ben Yang, Supantha Paul and University of Nebraska-Lincoln for providing original NCL scripts which are modified for use with this implementation and post processing  
 
@@ -116,6 +116,7 @@ Leng, G., Huang, M., Tang, Q., Gao, H., & Leung, L. R. (2013). Modeling the Effe
 
 Oleson KW, et al. (2010) Technical Description of version 4.0 of the Community Land Model (CLM). NCAR Technical Note NCAR/TN-478+STR (National Center for Atmospheric Research, Boulder, CO), 257 pp
 
-## Recommended acknowledgement for using the code, data or scripts
+## Recommended acknowledgment for using the code or data
+Please cite us when using the code or data
 
 
