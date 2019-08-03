@@ -91,7 +91,14 @@ _$BASE_DIR/WRF_CLM4_Irrigation/scripts/postprocessing_ contains NCL scripts that
 
 ## Acknowledgement
 Balwinder Singh for help with debugging the irrigation implementation  
-Ben Yang, Supantha Paul and University of Nebraska-Lincoln for providing original NCL scripts which are modified for use with this implementation and post processing
+Ben Yang, Supantha Paul and University of Nebraska-Lincoln for providing original NCL scripts which are modified for use with this implementation and post processing  
+
+The model development, simulations and analysis efforts were funded and supported by: 
++ Ministry of Earth Sciences, Government of India and National Environmental Research Council (UK) through Newton-Bhaba Project (no. MoES/NERC/IA SWR/P2/09/2016-PC-II)
++ U.S. Department of Energy (DOE), Office of Science, as part of research in Multi-Sector Dynamics, Earth and Environmental System Modeling Program
++ National Climate-Computing Research Center which is located within the National Center for Computational Sciences at the Oak Ridge National Laboratory (ORNL) and supported under a Strategic Partnership Project, 2316-T849-08, between DOE and NOAA.
++ Oak Ridge Leadership Computing Facility at ORNL, which is a DOE Office of Science User Facility supported under Contract DE309
+AC05-00OR22725.
 
 ## Who do I talk to?
     subimal at civil.iitb.ac.in
