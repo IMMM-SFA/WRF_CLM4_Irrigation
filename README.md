@@ -62,7 +62,7 @@ You may use the commands
 ./configure
 ./compile em_real >& compile.log
 ```
-### Download the Irrigation input datasets from https://dtn2.pnl.gov/data/im3/WRF_CLM_Irrigation/inputdata.  
+### Download the Irrigation input datasets from https://release.datahub.pnnl.gov/released_data/903.  
 Please refer Huang et al. (2018) for details of the global estimates of irrigation wateruse. Please refer supplementary material of Devanand et al. (2019) for details about how the estimates of Huang et al. (2018) were combined with agricultural census based irrigation estimates over northern India to produce these irrigation input files for the crop season spanning June-September. The irrigation input data from the above link are available for years 1990 to 2014.
 
 _Note_: The irrigation data files contain data for South Asia. User would need to create similar irrigation data files to employ the model for other regions.
