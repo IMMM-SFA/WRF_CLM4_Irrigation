@@ -62,13 +62,13 @@ You may use the commands
 ./configure
 ./compile em_real >& compile.log
 ```
-### Download the Irrigation input datasets from https://release.datahub.pnnl.gov/released_data/903.  
+### Download the Irrigation input datasets from https://dx.doi.org/10.25584/data.2019-08.903/1548406.  
 Please refer Huang et al. (2018) for details of the global estimates of irrigation wateruse. Please refer supplementary material of Devanand et al. (2019) for details about how the estimates of Huang et al. (2018) were combined with agricultural census based irrigation estimates over northern India to produce these irrigation input files for the crop season spanning June-September. The irrigation input data from the above link are available for years 1990 to 2014.
 
 _Note_: The irrigation data files contain data for South Asia. User would need to create similar irrigation data files to employ the model for other regions.
 ```
 mkdir -p $BASE_DIR/Irrigation_inputdata
-Download data from https://dtn2.pnl.gov/data/im3/WRF_CLM_Irrigation/inputdata to $BASE_DIR/Irrigation_inputdata
+Download data from https://dx.doi.org/10.25584/data.2019-08.903/1548406 to $BASE_DIR/Irrigation_inputdata
 ```
 ### Use the Downloaded datasets to provide irrigation inputs for regional simulations
 #### Run _real.exe_ to generate initial and boundary conditions for the WRF simulation
@@ -108,7 +108,7 @@ AC05-00OR22725.
 Please let us know in case you make any useful modifications.
 
 ## Reference:
-Devanand, A., Huang, M., Ashfaq, M., Barik, B., & Ghosh, S. (2019). Choice of Irrigation Water Management Practice affects Indian Summer Monsoon Rainfall and its Extremes. Geophysical Research Letters, _[in press]_
+Devanand, A., Huang, M., Ashfaq, M., Barik, B., & Ghosh, S. (2019). Choice of Irrigation Water Management Practice affects Indian Summer Monsoon Rainfall and its Extremes. Geophysical Research Letters, _[in press]_. https://doi.org/10.1029/2019GL083875
 ## Additional References:
 Huang, Z., Hejazi, M., Li, X., Tang, Q., Vernon, C., Leng, G., et al. (2018). Reconstruction of global gridded monthly sectoral water withdrawals for 1971–2010 and analysis of their spatiotemporal patterns. Hydrology and Earth System Sciences, 22(4), 2117–2133. https://doi.org/10.5194/hess-22-2117-2018
 
