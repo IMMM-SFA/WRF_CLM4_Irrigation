@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/200178635.svg)](https://zenodo.org/badge/latestdoi/200178635)
+
 # WRF_CLM4_Irrigation
 ### 1. WRF_CLM4_Paddy_Irrigation (WRF_CLM4_IRR)
 WRF-CLM4 code modifications to incorporate representations of census data based irrigation application, groundwater pumping and paddy fields for Kharif season from June-September
